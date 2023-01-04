@@ -1,11 +1,17 @@
 public class Main {
 
   public static void main(String[] args) {
-    int ans = add(100, 10);
-    System.out.println(ans);
+    int a =10; int b= 2;
+    int total = tasu(a , b);
+    int delta = hiku ( a, b);
+    System.out.println("足すと"+ total + "引くと" + delta);
   }
-  public static int add(int x, int y){
-    int ans = x + y;
-    return ans;
+
+  public static int tasu(int a, int b){
+    return ( a + b);
+  }
+
+  public static int hiku(int a, int b){
+    return ( a - b);
   }
 }
